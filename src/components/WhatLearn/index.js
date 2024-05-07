@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css";
+
 const WhatLearn = () => {
+  const [isBlinking, setIsBlinking] = useState(false);
+
+  const handlePayNow = () => {
+    // Redirect user to Razorpay payment page
+    window.location.href = "http://razorpay.me/@explorerscompany";
+  };
+
+  useEffect(() => {
+    // Set interval to toggle blinking every 1 second
+    const intervalId = setInterval(() => {
+      setIsBlinking((prevIsBlinking) => !prevIsBlinking);
+    }, 1000);
+
+    // Clear interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
   const whatLearn = (
     <div className="whatOutContainer">
       <h1>What You'll Learn:</h1>
@@ -93,8 +111,19 @@ const WhatLearn = () => {
           </div>
         </div>
       </div>
+      <div className="centered-text">
+        <span className={isBlinking ? "red-text blinking" : "red-text"}>
+          just get it for only ₹99
+        </span>
+      </div>
+      <div className="center">
+        <button className="btn-12" onClick={handlePayNow}>
+          <span>Pay Now</span>
+        </button>
+      </div>
     </div>
   );
+
   return <div className="whatFullContainer">{whatLearn}</div>;
 };
 
