@@ -42,7 +42,7 @@ const WhatLearn = () => {
           <div>
             <div className="imageContainer001">
               <img
-                className="w-75 img0001 "
+                className="w-100 img0001 "
                 src="https://s3-alpha-sig.figma.com/img/44b8/0fd1/dfd6882c28e2434d0c7a7a59f0e39216?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RBGPXubaNCe1hdvBFVdXqWxftbl-C7KMMjorykZkYsX9mTYq9goIx-z8~spS94ZaUvkguRNCSLAECmVdLj9n6Ak16If6fNLYCNM6izt8pLS6IkD~rw-PECA-FbNw6W-lUvusjeEJwPN8g7Lt8As5TyYv4Z6W4OiYg-gq4q~FXwaAldFwyTIZLTgsmUBWhabBOGCvY0wx6y0FVk3~5TE7iLkeGxUfW8T~nr0SDEXR0z4H78~g7PkUzhTMurOTw2lYjXSdvxuVHPJIY3fHM-mmlniuD6QVqyOQT3GOovBx1AkBDKBbKVnDvMm38wbpo-fpMBuIBgNetOdDygmszTBuCw__"
                 alt="whatimg001"
               />
