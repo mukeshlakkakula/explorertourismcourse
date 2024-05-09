@@ -12,7 +12,9 @@ const Header = () => {
       </div>
       <div className="navContainer">
         <h2 className="text-primary home">Home</h2>
-        <h2 className="home">Login</h2>
+        <h2 className="home" style={{ color: "#000" }}>
+          Login
+        </h2>
         <button type="button" className="btn btn-success font-weight-bold home">
           Register Now
         </button>

@@ -21,7 +21,7 @@ const CheckboxList = () => {
           Please Check All Boxes Where Your Answer Is YES!
         </h1>
         {checkboxContainers}
-        <h4>
+        <h4 style={{ color: "#000" }}>
           If you checked ANY of the boxes above, then you’re invited to join the
           <span
             style={{
@@ -35,7 +35,7 @@ const CheckboxList = () => {
           </span>
         </h4>
         {<Register />}
-        <h5>
+        <h5 style={{ color: "#000" }}>
           Register before{" "}
           <span style={{ color: "#e69b2f", fontWeight: "bold" }}>
             {" "}
