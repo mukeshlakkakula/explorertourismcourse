@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import Header from "../Header";
 import AboutWorkshop from "../AboutWorkshop";
-import BulletPoints from "../BulletPoints";
+
 import CheckboxList from "../CheckboxList";
 import Reviews from "../Reviews";
 import WhatYouGet from "../WhatYouGet";
@@ -18,7 +18,7 @@ const Home = () => (
   <div className="homeinnerContainer">
     <Header />
     <AboutWorkshop />
-    <BulletPoints />
+
     <CheckboxList />
     <Reviews />
     <WhatYouGet />
