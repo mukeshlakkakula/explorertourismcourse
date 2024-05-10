@@ -69,7 +69,7 @@ function FAQSection() {
   return (
     <div className="containerOf">
       <h2 className="question-main">Tourism Workshop FAQ</h2>
-      <h4 style={{ textAlign: "center", fontSize: "15px" }}>
+      <h4 style={{ textAlign: "center", fontSize: "15px", color: "#000" }}>
         We have answered all common questions below that you might have about
         the workshop. For any further queries, please contact:9533037680
       </h4>
