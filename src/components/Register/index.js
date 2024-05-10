@@ -13,7 +13,7 @@ const Register = () => {
   };
 
   return (
-    <div className="w-100 d-flex flex-column align-items-center mt-2">
+    <div className="w-100 d-flex flex-column align-items-center mt-2 justify-content-center">
       <div
         className="d-flex justify-content-center flex-column"
         style={{ gap: "10px" }}
