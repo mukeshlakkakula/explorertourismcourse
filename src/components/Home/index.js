@@ -14,6 +14,7 @@ import MeetYourMentor from "../MeetYourMentor";
 import DoYouKnow from "../DoYouKnow";
 import FAQSection from "../FAQSection";
 
+import Register from "../Register";
 const Home = () => (
   <div className="homeinnerContainer">
     <Header />
@@ -21,6 +22,7 @@ const Home = () => (
 
     <CheckboxList />
     <Reviews />
+    <Register />
     <WhatYouGet />
     <WhyAttendingWorkshop />
     <Bonuses />

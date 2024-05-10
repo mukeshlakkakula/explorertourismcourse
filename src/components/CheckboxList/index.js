@@ -35,18 +35,6 @@ const CheckboxList = () => {
           </span>
         </h4>
         {<Register />}
-        <h5 style={{ color: "#000" }}>
-          Register before{" "}
-          <span style={{ color: "#e69b2f", fontWeight: "bold" }}>
-            {" "}
-            May 10, 2024{" "}
-          </span>
-          to unlock bonuses worth{" "}
-          <span style={{ color: "#e69b2f", fontWeight: "bold" }}>
-            {" "}
-            ₹ 12,000{" "}
-          </span>
-        </h5>
       </div>
       <div className="moreContainer">
         More than 20,000 Businesses have called it the best way to learn Tourism
