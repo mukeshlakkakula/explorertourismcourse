@@ -6,7 +6,7 @@ import AboutWorkshop from "../AboutWorkshop";
 import CheckboxList from "../CheckboxList";
 import Reviews from "../Reviews";
 import WhatYouGet from "../WhatYouGet";
-import WhyAttendingWorkshop from "../WhyAttendingWorkshop";
+// import WhyAttendingWorkshop from "../WhyAttendingWorkshop";
 import Bonuses from "../Bonuses";
 import Certification from "../Certification";
 import SpecialDesignedFor from "../SpecialDesignedFor";
@@ -24,11 +24,12 @@ const Home = () => (
     <Reviews />
     <Register />
     <WhatYouGet />
-    <WhyAttendingWorkshop />
+    {/* <WhyAttendingWorkshop /> */}
     <Bonuses />
     <Certification />
     <SpecialDesignedFor />
     <MeetYourMentor />
+
     <DoYouKnow />
     <FAQSection />
   </div>

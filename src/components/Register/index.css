@@ -44,7 +44,7 @@
   justify-content: center;
   width: 1024px;
   align-items: center;
-  justify-content: center;
+
   text-align: center;
   background-color: #d12409;
   font-size: 26px;
@@ -54,7 +54,7 @@
 
 @media (max-width: 786px) {
   .outerRegisterContainer {
-    width: 98%;
+    width: 97%;
     font-size: 16px;
     padding: 10px 20px;
     font-family: "Montserrat", Sans-serif;
