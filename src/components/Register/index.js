@@ -18,15 +18,16 @@ const Register = () => {
         className="d-flex justify-content-center flex-column"
         style={{ gap: "10px" }}
       >
-        <div
-          className={`shaking-container  outerRegisterContainer ${
-            isHovered ? "paused" : ""
-          }`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <div>
-            <a className="content" href="https://razorpay.me/@explorerscompany">
+        {" "}
+        <a className="content" href="https://razorpay.me/@explorerscompany">
+          <div
+            className={`shaking-container  outerRegisterContainer ${
+              isHovered ? "paused" : ""
+            }`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div>
               <span className="">
                 <span className="">
                   Launch Your Own Tourism Business with{" "}
@@ -41,9 +42,9 @@ const Register = () => {
                   <br />
                 </span>
               </span>
-            </a>
-          </div>
-        </div>{" "}
+            </div>
+          </div>{" "}
+        </a>
         <h5
           style={{
             color: "#000",
