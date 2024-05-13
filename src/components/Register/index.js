@@ -26,7 +26,7 @@ const Register = () => {
           onMouseLeave={handleMouseLeave}
         >
           <div>
-            <a className="content" href="https://explorerscompany.in/">
+            <a className="content" href="https://razorpay.me/@explorerscompany">
               <span className="">
                 <span className="">
                   Launch Your Own Tourism Business with{" "}
